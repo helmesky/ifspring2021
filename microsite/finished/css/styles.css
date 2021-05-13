@@ -103,6 +103,145 @@ body {
 
 .book1 {
     padding-top: 25px;
-    padding-bottom: 110px;
+    padding-bottom: 30px;
     color: white;
+}
+
+.book2 img {
+  /* padding-top: 50px; */
+  width: 100%
+}
+
+.book2 .portrait {
+margin: 0rem 0rem 0rem 0rem;
+margin-bottom: 15px;
+text-align: right;
+}
+
+.book2 {
+padding-bottom: 30px;
+color: white;
+}
+
+.book3 img {
+  /* padding-top: 50px; */
+  width: 50%
+  
+}
+
+.book3 .portrait{
+
+float: left;
+padding-top: 0;
+margin: 0rem 1rem 0rem 0rem;
+margin-bottom: 7px;
+text-align: right;
+}
+
+.portrait
+{
+float: left;
+margin: 0rem 0rem 0rem 2rem;
+}
+
+.book3 {
+padding-bottom: 10px;
+color: white;
+}
+
+.book4 img {
+  /* padding-top: 50px; */
+  width: 50%
+  
+}
+
+.book4 .portrait{
+
+float: left;
+padding-top: 0;
+margin: 0rem 1rem 0rem 0rem;
+margin-bottom: 7px;
+text-align: right;
+}
+
+.portrait
+{
+float: left;
+margin: 0rem 0rem 0rem 2rem;
+}
+
+.book4 {
+  padding-top: 25px;
+padding-bottom: 10px;
+color: white;
+}
+
+.book5 img {
+  /* padding-top: 50px; */
+  width: 50%
+  
+}
+
+.book5 .portrait{
+
+float: right;
+padding-top: 0;
+margin: 0rem 0rem 0rem 1rem;
+margin-bottom: 7px;
+text-align: right;
+}
+
+.portrait
+{
+float: left;
+margin: 0rem 0rem 0rem 2rem;
+}
+
+.book5 {
+padding-top: 25px;
+padding-bottom: 30px;
+color: white;
+}
+
+.book6 img {
+  /* padding-top: 50px; */
+  width: 100%
+}
+
+.book6 .portrait {
+margin: 0rem 0rem 0rem 0rem;
+margin-bottom: 15px;
+text-align: right;
+}
+
+.book6 {
+padding-bottom: 30px;
+color: white;
+padding-top: 25px;
+}
+
+.book7 img {
+  /* padding-top: 50px; */
+  width: 100%
+}
+
+.book7 .portrait {
+margin: 0rem 0rem 0rem 0rem;
+margin-bottom: 15px;
+text-align: right;
+}
+
+.book7 {
+padding-bottom: 30px;
+color: white;
+}
+
+@media (max-width: 380px) {
+  h2 {
+    font-size: 12.5pt;
+    font-weight:bolder
+  }
+  p {
+    font-size: small;
+  }
 }
