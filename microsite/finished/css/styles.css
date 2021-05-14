@@ -38,10 +38,11 @@ body {
 
   .topnav a.active {
     color:steelblue;
+    background-color: white;
   }
 
   @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(:active) {display: none}
     .topnav a.icon {
       float: right;
       display: block;
@@ -102,7 +103,7 @@ body {
 }
 
 .book1 {
-    padding-top: 25px;
+    padding-top: 0px;
     padding-bottom: 30px;
     color: white;
 }
@@ -171,7 +172,7 @@ margin: 0rem 0rem 0rem 2rem;
 }
 
 .book4 {
-  padding-top: 25px;
+  padding-top: 0px;
 padding-bottom: 10px;
 color: white;
 }
@@ -208,6 +209,16 @@ color: white;
   width: 100%
 }
 
+@media (max-width: 380px) {
+  .book1 img { width:100%;}
+  .book2 img { width:100%;}
+  .book3 img { width:100%;}
+  .book4 img { width:100%;}
+  .book5 img { width:100%;}
+  .book6 img { width:100%;}
+  .book7 img { width:100%;}
+}
+
 .book6 .portrait {
 margin: 0rem 0rem 0rem 0rem;
 margin-bottom: 15px;
@@ -217,7 +228,7 @@ text-align: right;
 .book6 {
 padding-bottom: 30px;
 color: white;
-padding-top: 25px;
+padding-top: 0px;
 }
 
 .book7 img {
@@ -244,4 +255,215 @@ color: white;
   p {
     font-size: small;
   }
+}
+
+/* p {
+  color: white;
+} */
+footer.panel {
+  background-color:steelblue;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.paragraph1 p {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: white;
+}
+
+.paragraph2 p {
+  padding-top: 25px;
+  color:white;
+}
+
+.sources {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.button1 {
+  text-decoration: none;
+background-color: #f1a965;
+color: white;
+font-size: 20px;
+padding: 15px 30px;
+margin-bottom: 100px;
+}
+
+.button1:hover {
+  background-color: #c7703d;
+}
+
+.button1:active {
+  background-color: black;
+  transform: translate(-50%, -20%) scale(0.7);
+  padding: 15px 30px;
+}
+
+.button2 {
+  text-decoration: none;
+background-color: #cc2121;
+color: white;
+font-size: 20px;
+padding: 15px 30px;
+}
+
+.button2:hover {
+  background-color: #940000;
+}
+
+.button2:active {
+  background-color: #000000;
+  transform: translate(-50%, -20%) scale(0.7);
+  padding: 15px 30px;
+}
+
+.button3 {
+  text-decoration: none;
+background-color: #d86e6e;
+color: white;
+font-size: 20px;
+padding: 15px 30px;
+}
+
+.button3:hover {
+  background-color: #e24b4b;
+}
+
+.button3:active {
+  background-color: #000000;
+  transform: translate(-50%, -20%) scale(0.7);
+  padding: 15px 30px;
+}
+
+.button4 {
+  text-decoration: none;
+background-color: #39c56f;
+color: white;
+font-size: 20px;
+padding: 15px 30px;
+}
+
+.button4:hover {
+  background-color: #008634;
+}
+
+.button4:active {
+  background-color: #000000;
+  transform: translate(-50%, -20%) scale(0.7);
+  padding: 15px 30px;
+}
+
+.button5 {
+  text-decoration: none;
+background-color: #0059ff;
+color: white;
+font-size: 20px;
+padding: 15px 30px;
+}
+
+.button5:hover {
+  background-color: #1100ad;
+}
+
+.button5:active {
+  background-color: #000000;
+  transform: translate(-50%, -20%) scale(0.7);
+  padding: 15px 30px;
+}
+
+.button6 {
+  text-decoration: none;
+background-color: #008643;
+color: white;
+font-size: 20px;
+padding: 15px 30px;
+}
+
+.button6:hover {
+  background-color: #00743e;
+}
+
+.button6:active {
+  background-color: #000000;
+  transform: translate(-50%, -20%) scale(0.7);
+  padding: 15px 30px;
+}
+
+.button7 {
+  text-decoration: none;
+background-color: #cc6300;
+color: white;
+font-size: 20px;
+padding: 15px 30px;
+margin-top: 100px;
+}
+
+.button7:hover {
+  background-color: #c25110;
+}
+
+.button7:active {
+  background-color: #000000;
+  transform: translate(-50%, -20%) scale(0.7);
+  padding: 15px 30px;
+}
+
+.h {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.b {
+  padding-bottom: 10px;
+}
+
+.c {
+  padding-bottom: 10px;
+}
+
+.d {
+  padding-bottom: 10px;
+}
+
+.e {
+  padding-bottom: 10px;
+}
+
+.f {
+  padding-bottom: 10px;
+}
+
+@media (max-width: 380px) {
+  .button1 {font-size: 12px;}
+}
+
+@media (max-width: 380px) {
+  .button2 {font-size: 12px;}
+}
+
+@media (max-width: 380px) {
+  .button3 {font-size: 12px;}
+}
+
+@media (max-width: 380px) {
+  .button4 {font-size: 12px;}
+}
+
+@media (max-width: 380px) {
+  .button5 {font-size: 12px;}
+}
+
+@media (max-width: 380px) {
+  .button6 {font-size: 12px;}
+}
+
+@media (max-width: 380px) {
+  .button7 {font-size: 12px;}
+}
+
+h1 {
+  padding-top: 25px;
 }
