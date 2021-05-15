@@ -209,7 +209,7 @@ color: white;
   width: 100%
 }
 
-@media (max-width: 380px) {
+@media (max-width: 800px) {
   .book1 img { width:100%;}
   .book2 img { width:100%;}
   .book3 img { width:100%;}
@@ -436,31 +436,31 @@ margin-top: 100px;
   padding-bottom: 10px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 640px) {
   .button1 {font-size: 12px;}
 }
 
-@media (max-width: 380px) {
+@media (max-width: 640px) {
   .button2 {font-size: 12px;}
 }
 
-@media (max-width: 380px) {
+@media (max-width: 640px) {
   .button3 {font-size: 12px;}
 }
 
-@media (max-width: 380px) {
+@media (max-width: 640px) {
   .button4 {font-size: 12px;}
 }
 
-@media (max-width: 380px) {
+@media (max-width: 640px) {
   .button5 {font-size: 12px;}
 }
 
-@media (max-width: 380px) {
+@media (max-width: 640px) {
   .button6 {font-size: 12px;}
 }
 
-@media (max-width: 380px) {
+@media (max-width: 640px) {
   .button7 {font-size: 12px;}
 }
 
